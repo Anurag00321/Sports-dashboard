@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Dribbble, Goal, Users, ArrowUp, ArrowDown } from 'lucide-react';
+import { Dribbble, Goal, Users, CheckCircle, ArrowUp, ArrowDown } from 'lucide-react';
 
 // Define types for mock data
 interface TeamPerformance {
@@ -132,7 +132,7 @@ const AdvancedSportsDashboard: React.FC = () => {
       <div className="grid gap-6 md:grid-cols-3 mb-8">
         <StatCard icon={Goal} title="Total Goals" value="8" trend={5} />
         <StatCard icon={Dribbble} title="Avg. Possession" value="56%" trend={-2} />
-        <StatCard icon={Users} title="Squad Size" value="25" trend={0} />
+        <StatCard icon={CheckCircle} title="Pass Accuracy" value="85%" trend={4} />
       </div>
 
       <div className="grid gap-8 md:grid-cols-2">
