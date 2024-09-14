@@ -105,7 +105,7 @@ const AdvancedSportsDashboard = () => {
         <h1 className="text-5xl font-extrabold text-white">
           Premier Soccer Analytics Dashboard
         </h1>
-        <p className="text-lg text-gray-200 mt-4">Track your team's performance in real-time</p>
+        <p className="text-lg text-gray-200 mt-4">Track your team&apos;s performance in real-time</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-3 mb-8">
